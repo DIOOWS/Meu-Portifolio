@@ -1,0 +1,39 @@
+
+#skills {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 7rem 0;
+  width: 100%;
+  gap: 10px;
+ 
+  
+}
+.icon-linguagens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.linguagens {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  
+}
+
+.linguagens img {
+  width: 130px;
+}
+
+
+@media (max-width: 730px){
+  .linguagens img{
+    width: 75px;
+  }
+}

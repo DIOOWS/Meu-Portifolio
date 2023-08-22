@@ -1,0 +1,76 @@
+#start{
+    background-image: url(../imagens/nikita-kachanovsky-OVbeSXRk_9E-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12rem 0;
+    width:100%;
+    padding-left: 40px;
+}
+#start::after{
+    content: '';
+    display: block;
+    background-color: rgba(24, 24, 24, 0);
+    box-shadow: 0 0 5px red, 0 0 20px red, 0 0 30px red, 0 0 50px red;
+    height: 250px;
+    width: 10px;
+    margin-top: -237px;
+    border-radius: 50px;
+}
+
+#diogo .texto_sobre, .dev, .front, .icon{
+    padding-left: 30px;
+}
+#diogo h1 {
+    display: inline-block;
+    color: #fff;
+    font-size: 80px;
+    text-shadow: 0 0 5px #08B5D5, 0 0 15px #08B5D5, 0 0 30px #08B5D5, 0 0 50px #08B5D5;
+  }
+.dev p{
+    color: aliceblue;
+    font-size: 45px;
+}
+.front p{
+    color: aliceblue;
+    font-size: 40px;
+    margin-bottom: 10px;  
+}
+.medidastexto{
+    font-weight: 600;
+}
+.icon img{
+    display: block;
+    float: left;
+    width: 30px;
+    margin: 0 10px 0 0; 
+}
+@media(max-width:760px){
+    #diogo h1{
+      font-size: 60px;
+    }
+    .dev p{
+        font-size: 25px;
+    }
+    .front p{
+        font-size: 15px;
+    }
+    #start::after{
+        height: 190px;
+        width: 10px;
+        margin-top: -170px;
+    }
+  }
+
+  @media(max-width: 450px){
+    #start::after{
+        height: 230px;
+        width: 10px;
+        margin-top: -225px;
+    }
+}
+
+  

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="imports.css" />
+  <title>Dioow portifolio</title>
+</head>
+
+<body>
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#start"> <span>S</span>TART </a></li>
+        <li><a href="#sobre-mim"> S<span>O</span>BRE </a></li>
+        <li>
+          <a href="#skills"> SKI<span>L</span>LS </a>
+        </li>
+        <li><a href="#projetos">PROJE<span>T</span>OS</a></li>
+        <li><a href="#contatos"> CONTAT<span>O</span> </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="start">
+      <div id="diogo">
+        <div class="texto_sobre">
+          <h1>Diogo Silva</h1>
+        </div>
+        <div class="dev medidastexto">
+          <p>Deenvolvedor</p>
+        </div>
+        <div class="front medidastexto">
+          <p>Front-end</p>
+        </div>
+      </div>
+      <div class="icon">
+        <img src="./icon/linkedin-sign_icon-icons.com_73508.svg" alt="" />
+        <a target="_blank" href="https://github.com/DIOOWS"><img src="./icon/github.svg" alt="" /></a>
+      </div>
+    </section>
+    <section id="sobre-mim">
+      <p class="titulo" data-anime="top">SOBRE</p>
+      <div class="container-sobre-mim">
+        <img src="./imagens/diogo mod.png" alt="" data-anime="left" />
+        <p data-anime="right">
+                         [ <span>OLA EU SOU O DIOGO</span> ]
+                         <br>
+                         <br>
+          Sou um cara competente, sei trabalhar em equipe, tenho fácil
+          relacionamento com as pessoas, sou proativo, e gosto muito de
+          agregar e muito de aprender. Atualmente faço Analise Desenvolvimento
+          de Sistemas na faculdade Estácio e também faço curso de programação
+          (DESENVOLVEDOR FULL-STACK), porem sou apaixonado pelo FRONT-END.
+          Estou pronto para agregar, contribuir, evoluir com as novas oportunidades.
+        </p>
+      </div>
+    </section>
+    <section id="skills">
+      <p class="titulo" data-anime="top">SKILLS</p>
+      <main class="icon-linguagens" data-anime="left">
+        <div class="linguagens">
+          <img src="./icon/html5.svg" alt="" />
+          <img src="./icon/js.svg" alt="" />
+          <img src="./icon/css3-alt.svg" alt="" />
+        </div>
+        <div class="linguagens" data-anime="left">
+          <img src="./icon/sass.svg" alt="" />
+          <img src="./icon/react.svg" alt="" />
+        </div>
+      </main>
+    </section>
+
+    <section id="projetos">
+      <p class="titulo" data-anime="top">PROJETOS</p>
+          <div class="content" data-anime="left">
+            <div class="slides">
+              <input class="input" type="radio" name="slide" id="slide1" checked />
+              <input class="input" type="radio" name="slide" id="slide2" />
+              <input class="input" type="radio" name="slide" id="slide3" />
+              <input class="input" type="radio" name="slide" id="slide4" />
+              <input class="input" type="radio" name="slide" id="slide5" />
+
+              <div class="slide s1">
+                <img src="./gif/gif portifolio.gif"/>
+              </div>
+              <div class="slide">
+                <img src="./gif/projeto laranja gif.gif" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./gif/gif brafe.gif" alt="" />
+              </div>
+              <div class="slide">
+                <img src="./gif/Projeto Sacolicia - gif.gif" alt="">
+              </div>
+              <div class="slide">
+                <img src="./gif/gif blog r.gif" alt="" />
+              </div>
+            </div>
+          </div>
+      <div class="navigation" >
+        <label class="bar" for="slide1"></label>
+        <label class="bar" for="slide2"></label>
+        <label class="bar" for="slide3"></label>
+        <label class="bar" for="slide4"></label>
+        <label class="bar" for="slide5"></label>
+      </div>
+    </section>
+
+    <section id="contatos">
+      <div class="contato-rapagraf">
+        <p class="titulo" data-anime="top">CONTATO</p>
+      </div>
+      <form class="formulario" action="https://formsubmit.co/ajax/diogoalexsilva123@gmail.com" method="POST" data-form>
+        <label for="name" data-anime="bottom">[ NOM<span>E</span> ]</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email" data-anime="bottom">[ <span>E</span>-MAIL ]</label>
+        <input type="email" name="email" id="email" placeholder="Digite seu e-mail" required />
+        <textarea cols="30" rows="10" name="message" required></textarea>
+        <button type="submit" data-button>ENVIAR</button>
+      </form>
+    </section>
+  </main>
+  <script src="java s/app.js"></script>
+  <script src="java s/scrol.js"></script>
+  <script src="java s/form.js"></script>
+</body>
+
+</html>
